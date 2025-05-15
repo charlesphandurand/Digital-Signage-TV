@@ -1,0 +1,101 @@
+<!--
+  Digital Signage Cermart
+  Created by: Cermart Team
+  Version: 1.0
+  Description: A simple digital signage application to display images and videos.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Signage Cermart</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      overflow: hidden;
+    }
+    #media {
+      display: block;
+      margin: auto;
+      max-width: 100vw;
+      max-height: 100vh;
+      object-fit: contain;
+      transition: opacity 1s;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="container"></div>
+
+  <script src="imagelist.js"></script>
+
+  <script>
+    const container = document.getElementById("container");
+    let index = 0;
+
+    function createMediaElement(file) {
+      const ext = file.split('.').pop().toLowerCase();
+      let el;
+
+      if (["jpg", "jpeg", "png", "gif"].includes(ext)) {
+        el = document.createElement("img");
+        el.src = file;
+      } else if (["mp4", "webm", "mov", "avi"].includes(ext)) {
+        el = document.createElement("video");
+        el.src = file;
+        el.autoplay = true;
+        el.loop = false;
+        el.muted = true;
+      }
+
+      if (el) {
+        el.id = "media";
+        el.style.opacity = 0;
+        el.onload = () => el.style.opacity = 1;
+        el.onloadeddata = () => el.style.opacity = 1;
+        el.onerror = () => console.error("Gagal load:", file);
+        return el;
+      }
+      return null;
+    }
+
+    function showNextMedia() {
+      if (promos.length === 0) return;
+
+      container.innerHTML = "";
+      const file = promos[index];
+      const media = createMediaElement(file);
+      if (!media) return;
+
+      container.appendChild(media);
+
+      const ext = file.split('.').pop().toLowerCase();
+      let delay = 1000; // default 5 detik
+
+      if (["mp4", "webm", "mov", "avi"].includes(ext)) {
+        media.onended = () => {
+          index = (index + 1) % promos.length;
+          showNextMedia();
+        };
+        return; // jangan pakai setTimeout, tunggu video selesai
+      }
+
+      setTimeout(() => {
+        index = (index + 1) % promos.length;
+        showNextMedia();
+      }, delay);
+    }
+
+    window.onload = () => {
+      if (typeof promos !== "undefined" && promos.length > 0) {
+        showNextMedia();
+      } else {
+        console.error("Tidak ada media ditemukan di imagelist.js");
+      }
+    };
+  </script>
+</body>
+</html>
