@@ -1,10 +1,3 @@
-<!--
-  Digital Signage Cermart
-  Created by: Cermart Team
-  Version: 1.0
-  Description: A simple digital signage application to display images and videos.
--->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,13 +24,11 @@
 </head>
 <body>
   <img id="promoImage" src="" style="display: none;">
-  <video id="promoVideo" autoplay muted loop style="display: none;"></video>
+  <video id="promoVideo" autoplay muted playsinline style="display: none;"></video>
 
-  <!-- Muat daftar media dari file JS -->
   <script src="imagelist.js"></script>
   <script>
-    // Urutkan nama file dari A-Z
-    promos.sort();
+    promos.sort(); // urutkan A-Z
 
     const imageElement = document.getElementById("promoImage");
     const videoElement = document.getElementById("promoVideo");
@@ -46,22 +37,27 @@
     function showMedia() {
       const file = promos[index].toLowerCase();
 
-      // Sembunyikan keduanya dulu
       imageElement.style.display = "none";
       videoElement.style.display = "none";
+      imageElement.style.opacity = 0;
+      videoElement.style.opacity = 0;
 
       if (file.endsWith(".jpg") || file.endsWith(".jpeg") || file.endsWith(".png") || file.endsWith(".gif")) {
         imageElement.src = promos[index];
-        imageElement.style.opacity = 0;
         imageElement.style.display = "block";
         setTimeout(() => imageElement.style.opacity = 1, 100);
+        setTimeout(nextSlide, 5000); // tampil 5 detik
       } else if (file.endsWith(".mp4") || file.endsWith(".webm") || file.endsWith(".mov") || file.endsWith(".avi")) {
         videoElement.src = promos[index];
-        videoElement.load();
-        videoElement.play();
-        videoElement.style.opacity = 0;
         videoElement.style.display = "block";
-        setTimeout(() => videoElement.style.opacity = 1, 100);
+        videoElement.load();
+        videoElement.oncanplay = () => {
+          videoElement.play();
+          videoElement.style.opacity = 1;
+        };
+        videoElement.onended = () => {
+          nextSlide();
+        };
       }
     }
 
@@ -71,7 +67,6 @@
       showMedia();
     }
 
-    // Tangani error (jika file tidak bisa dimuat)
     imageElement.onerror = videoElement.onerror = function () {
       console.error("Gagal memuat media:", promos[index]);
       promos.splice(index, 1);
@@ -80,12 +75,9 @@
       showMedia();
     };
 
-    // Tampilkan media pertama
     if (promos.length > 0) {
       showMedia();
-      setInterval(nextSlide, 5000); // Ganti setiap 5 detik
     }
   </script>
 </body>
 </html>
-
