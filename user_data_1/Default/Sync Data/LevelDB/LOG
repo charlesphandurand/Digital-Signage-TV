@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 2025/05/22-12:31:43.510 3284 Creating DB C:\Signage\user_data_1\Default\Sync Data\LevelDB since it was missing.
 2025/05/22-12:31:43.687 3284 Reusing MANIFEST C:\Signage\user_data_1\Default\Sync Data\LevelDB/MANIFEST-000001
+=======
+2025/05/22-16:36:51.684 3ce0 Creating DB C:\Signage\user_data_1\Default\Sync Data\LevelDB since it was missing.
+2025/05/22-16:36:51.700 3ce0 Reusing MANIFEST C:\Signage\user_data_1\Default\Sync Data\LevelDB/MANIFEST-000001
+>>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)

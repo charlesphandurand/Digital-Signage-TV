@@ -1,12 +1,21 @@
 {
    "epochs": [ {
+<<<<<<< HEAD
       "calculation_time": "13392361907709397",
+=======
+      "calculation_time": "13392376626726299",
+>>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)
       "config_version": 0,
       "model_version": "0",
       "padded_top_topics_start_index": 0,
       "taxonomy_version": 0,
       "top_topics_and_observing_domains": [  ]
    } ],
+<<<<<<< HEAD
    "hex_encoded_hmac_key": "215E7FA3BD2CFA948FF5F66F527BC405CA1915498768FA5EEF49CF5B3850E598",
    "next_scheduled_calculation_time": "13392966707709469"
+=======
+   "hex_encoded_hmac_key": "15F654784C201AC9F6CE4D946F47C9460481581D8E9FBE0BDFDD25291AD24114",
+   "next_scheduled_calculation_time": "13392981426727221"
+>>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)
 }

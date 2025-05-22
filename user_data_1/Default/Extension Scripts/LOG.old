@@ -1,0 +1,4 @@
+2025/05/22-16:34:34.880 8dc Creating DB C:\Signage\user_data_1\Default\Extension Scripts since it was missing.
+2025/05/22-16:34:34.890 8dc Reusing MANIFEST C:\Signage\user_data_1\Default\Extension Scripts/MANIFEST-000001
+2025/05/22-16:34:34.891 8dc Recovering log #3
+2025/05/22-16:34:34.891 8dc Reusing old log C:\Signage\user_data_1\Default\Extension Scripts/000003.log 

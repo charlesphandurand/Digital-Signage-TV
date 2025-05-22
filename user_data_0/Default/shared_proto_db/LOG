@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 2025/05/22-12:31:42.302 21d4 Creating DB C:\Signage\user_data_0\Default\shared_proto_db since it was missing.
 2025/05/22-12:31:42.485 21d4 Reusing MANIFEST C:\Signage\user_data_0\Default\shared_proto_db/MANIFEST-000001
+=======
+2025/05/22-16:36:49.524 1f88 Creating DB C:\Signage\user_data_0\Default\shared_proto_db since it was missing.
+2025/05/22-16:36:49.543 1f88 Reusing MANIFEST C:\Signage\user_data_0\Default\shared_proto_db/MANIFEST-000001
+2025/05/22-16:36:49.544 1f88 Recovering log #3
+2025/05/22-16:36:49.545 1f88 Reusing old log C:\Signage\user_data_0\Default\shared_proto_db/000003.log 
+>>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)

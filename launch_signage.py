@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # import os
 # import subprocess
 # import time
@@ -38,6 +39,8 @@
 #     time.sleep(1)  # beri delay supaya tidak tumpuk
 
 
+=======
+>>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)
 import os
 import subprocess
 import time

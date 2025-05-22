@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 2025/05/22-12:31:44.386 3868 Creating DB C:\Signage\user_data_1\Default\Extension Scripts since it was missing.
 2025/05/22-12:31:44.409 3868 Reusing MANIFEST C:\Signage\user_data_1\Default\Extension Scripts/MANIFEST-000001
+=======
+2025/05/22-16:36:51.790 3ce0 Creating DB C:\Signage\user_data_1\Default\Extension Scripts since it was missing.
+2025/05/22-16:36:51.888 3ce0 Reusing MANIFEST C:\Signage\user_data_1\Default\Extension Scripts/MANIFEST-000001
+2025/05/22-16:36:51.889 3ce0 Recovering log #3
+2025/05/22-16:36:51.889 3ce0 Reusing old log C:\Signage\user_data_1\Default\Extension Scripts/000003.log 
+>>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)

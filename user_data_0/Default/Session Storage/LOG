@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 2025/05/22-12:31:49.494 e3c Creating DB C:\Signage\user_data_0\Default\Session Storage since it was missing.
 2025/05/22-12:31:49.524 e3c Reusing MANIFEST C:\Signage\user_data_0\Default\Session Storage/MANIFEST-000001
+=======
+2025/05/22-16:37:04.918 20 Creating DB C:\Signage\user_data_0\Default\Session Storage since it was missing.
+2025/05/22-16:37:04.937 20 Reusing MANIFEST C:\Signage\user_data_0\Default\Session Storage/MANIFEST-000001
+2025/05/22-16:37:04.938 20 Recovering log #3
+2025/05/22-16:37:04.941 20 Reusing old log C:\Signage\user_data_0\Default\Session Storage/000003.log 
+>>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)
