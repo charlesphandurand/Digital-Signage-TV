@@ -25,7 +25,7 @@ xcopy "%SOURCE%\*.avi"   "%TARGET%\" /D /Y >nul
 :: Copy index.html kalau belum ada
 if not exist "%TARGET%\index.html" copy "%~dp0index.html" "%TARGET%\index.html"
 
-:: Buat daftar file media yang urut A-Z
+:: Buat file imagelist.js urut A-Z
 (
   echo let promos = [
   for /f "delims=" %%F in ('dir /b /on "%TARGET%\*.jpg" "%TARGET%\*.jpeg" "%TARGET%\*.png" "%TARGET%\*.gif" "%TARGET%\*.mp4" "%TARGET%\*.webm" "%TARGET%\*.mov" "%TARGET%\*.avi"') do (
@@ -34,8 +34,7 @@ if not exist "%TARGET%\index.html" copy "%~dp0index.html" "%TARGET%\index.html"
   echo ];
 ) > "%TARGET%\imagelist.js"
 
-:: Buka di Chrome mode kiosk (fullscreen)
-start chrome --kiosk "file:///C:/Signage/index.html"
+:: Jalankan Python launch_signage.py (pastikan python dan modul screeninfo sudah terinstall)
+python "%~dp0launch_signage.py"
 
 endlocal
-exit
