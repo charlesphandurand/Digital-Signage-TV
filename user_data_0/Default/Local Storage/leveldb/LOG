@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-2025/05/22-12:31:42.457 e3c Creating DB C:\Signage\user_data_0\Default\Local Storage\leveldb since it was missing.
-2025/05/22-12:31:42.862 e3c Reusing MANIFEST C:\Signage\user_data_0\Default\Local Storage\leveldb/MANIFEST-000001
-=======
-2025/05/22-16:36:49.282 20 Creating DB C:\Signage\user_data_0\Default\Local Storage\leveldb since it was missing.
-2025/05/22-16:36:49.319 20 Reusing MANIFEST C:\Signage\user_data_0\Default\Local Storage\leveldb/MANIFEST-000001
-2025/05/22-16:36:49.320 20 Recovering log #3
-2025/05/22-16:36:49.323 20 Reusing old log C:\Signage\user_data_0\Default\Local Storage\leveldb/000003.log 
->>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)

@@ -1,4 +1,0 @@
-2025/05/22-16:34:35.181 8dc Creating DB C:\Signage\user_data_1\Default\shared_proto_db\metadata since it was missing.
-2025/05/22-16:34:35.202 8dc Reusing MANIFEST C:\Signage\user_data_1\Default\shared_proto_db\metadata/MANIFEST-000001
-2025/05/22-16:34:35.205 8dc Recovering log #3
-2025/05/22-16:34:35.206 8dc Reusing old log C:\Signage\user_data_1\Default\shared_proto_db\metadata/000003.log 

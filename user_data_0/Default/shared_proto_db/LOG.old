@@ -1,4 +1,0 @@
-2025/05/22-16:34:33.379 1fec Creating DB C:\Signage\user_data_0\Default\shared_proto_db since it was missing.
-2025/05/22-16:34:33.401 1fec Reusing MANIFEST C:\Signage\user_data_0\Default\shared_proto_db/MANIFEST-000001
-2025/05/22-16:34:33.402 1fec Recovering log #3
-2025/05/22-16:34:33.403 1fec Reusing old log C:\Signage\user_data_0\Default\shared_proto_db/000003.log 

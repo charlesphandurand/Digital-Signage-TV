@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-2025/05/22-12:31:44.354 3868 Creating DB C:\Signage\user_data_1\Default\Extension Rules since it was missing.
-2025/05/22-12:31:44.383 3868 Reusing MANIFEST C:\Signage\user_data_1\Default\Extension Rules/MANIFEST-000001
-=======
-2025/05/22-16:36:51.712 3ce0 Creating DB C:\Signage\user_data_1\Default\Extension Rules since it was missing.
-2025/05/22-16:36:51.786 3ce0 Reusing MANIFEST C:\Signage\user_data_1\Default\Extension Rules/MANIFEST-000001
-2025/05/22-16:36:51.787 3ce0 Recovering log #3
-2025/05/22-16:36:51.788 3ce0 Reusing old log C:\Signage\user_data_1\Default\Extension Rules/000003.log 
->>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)

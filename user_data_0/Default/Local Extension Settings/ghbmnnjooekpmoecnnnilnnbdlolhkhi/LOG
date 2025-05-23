@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-2025/05/22-12:32:04.939 1cc0 Creating DB C:\Signage\user_data_0\Default\Local Extension Settings\ghbmnnjooekpmoecnnnilnnbdlolhkhi since it was missing.
-2025/05/22-12:32:04.952 1cc0 Reusing MANIFEST C:\Signage\user_data_0\Default\Local Extension Settings\ghbmnnjooekpmoecnnnilnnbdlolhkhi/MANIFEST-000001
-=======
-2025/05/22-16:34:48.126 2658 Creating DB C:\Signage\user_data_0\Default\Local Extension Settings\ghbmnnjooekpmoecnnnilnnbdlolhkhi since it was missing.
-2025/05/22-16:34:48.165 2658 Reusing MANIFEST C:\Signage\user_data_0\Default\Local Extension Settings\ghbmnnjooekpmoecnnnilnnbdlolhkhi/MANIFEST-000001
->>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)

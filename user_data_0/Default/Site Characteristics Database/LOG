@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-2025/05/22-12:31:41.736 38f4 Creating DB C:\Signage\user_data_0\Default\Site Characteristics Database since it was missing.
-2025/05/22-12:31:41.773 38f4 Reusing MANIFEST C:\Signage\user_data_0\Default\Site Characteristics Database/MANIFEST-000001
-=======
-2025/05/22-16:36:49.103 2af0 Creating DB C:\Signage\user_data_0\Default\Site Characteristics Database since it was missing.
-2025/05/22-16:36:49.121 2af0 Reusing MANIFEST C:\Signage\user_data_0\Default\Site Characteristics Database/MANIFEST-000001
-2025/05/22-16:36:49.121 2af0 Recovering log #3
-2025/05/22-16:36:49.122 2af0 Reusing old log C:\Signage\user_data_0\Default\Site Characteristics Database/000003.log 
->>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)

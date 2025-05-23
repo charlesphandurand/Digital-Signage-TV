@@ -15,11 +15,7 @@
       max-width: 100vw;
       max-height: 100vh;
       object-fit: contain;
-<<<<<<< HEAD
-      transition: opacity 1s;
-=======
       transition: opacity 0.1s;
->>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)
     }
     video {
       background-color: black;
@@ -50,7 +46,7 @@
         imageElement.src = promos[index];
         imageElement.style.display = "block";
         setTimeout(() => imageElement.style.opacity = 1, 100);
-        setTimeout(nextSlide, 5000); // tampil 5 detik
+        setTimeout(nextSlide, 1000); // tampil 5 detik
       } else if (file.endsWith(".mp4") || file.endsWith(".webm") || file.endsWith(".mov") || file.endsWith(".avi")) {
         videoElement.src = promos[index];
         videoElement.style.display = "block";
@@ -59,19 +55,7 @@
           videoElement.play();
           videoElement.style.opacity = 1;
         };
-<<<<<<< HEAD
-/*************  ✨ Windsurf Command ⭐  *************/
-=======
->>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)
-/**
- * Event handler triggered when the video finishes playing.
- * It calls the nextSlide function to proceed to the next media file.
- */
 
-<<<<<<< HEAD
-/*******  d0679139-2f71-43c8-b68d-1b2338558f84  *******/
-=======
->>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)
         videoElement.onended = () => {
           nextSlide();
         };
