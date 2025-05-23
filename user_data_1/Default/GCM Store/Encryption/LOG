@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+2025/05/22-12:31:49.089 2454 Creating DB C:\Signage\user_data_1\Default\GCM Store\Encryption since it was missing.
+2025/05/22-12:31:49.711 2454 Reusing MANIFEST C:\Signage\user_data_1\Default\GCM Store\Encryption/MANIFEST-000001
+=======
+2025/05/22-16:34:48.012 8d4 Creating DB C:\Signage\user_data_1\Default\GCM Store\Encryption since it was missing.
+2025/05/22-16:34:48.098 8d4 Reusing MANIFEST C:\Signage\user_data_1\Default\GCM Store\Encryption/MANIFEST-000001
+2025/05/22-16:34:48.099 8d4 Recovering log #3
+2025/05/22-16:34:48.099 8d4 Reusing old log C:\Signage\user_data_1\Default\GCM Store\Encryption/000003.log 
+>>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)

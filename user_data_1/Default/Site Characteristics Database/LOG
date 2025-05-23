@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+2025/05/22-12:31:43.588 3a0c Creating DB C:\Signage\user_data_1\Default\Site Characteristics Database since it was missing.
+2025/05/22-12:31:43.696 3a0c Reusing MANIFEST C:\Signage\user_data_1\Default\Site Characteristics Database/MANIFEST-000001
+=======
+2025/05/22-16:36:51.694 1784 Creating DB C:\Signage\user_data_1\Default\Site Characteristics Database since it was missing.
+2025/05/22-16:36:51.785 1784 Reusing MANIFEST C:\Signage\user_data_1\Default\Site Characteristics Database/MANIFEST-000001
+>>>>>>> a4d69d5 (FINAL Multi Monitor + Auto Run + Python Detect Display)
